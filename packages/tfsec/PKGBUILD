@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=tfsec
-pkgver=v0.48.7.r1.gc48a623
+pkgver=v0.56.0.r0.gb1adc9e7
 pkgrel=1
 pkgdesc='Security scanner for your Terraform code.'
 arch=('x86_64' 'aarch64')

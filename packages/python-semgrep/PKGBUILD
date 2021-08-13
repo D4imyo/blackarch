@@ -3,20 +3,21 @@
 
 pkgname=python-semgrep
 _pkgname=semgrep
-pkgver=0.57.0
-pkgrel=1
+pkgver=0.61.0
+pkgrel=2
 pkgdesc='Lightweight static analysis for many languages.'
 arch=('x86_64')
 url='https://github.com/returntocorp/semgrep'
 license=('LGPL')
 depends=('python' 'python-colorama' 'python-requests' 'python-attrs'
          'python-tqdm' 'python-packaging' 'python-ruamel-yaml' 'python-wheel'
-         'python-jsonschema' 'python-junit-xml')
+         'python-jsonschema' 'python-junit-xml' 'python-peewee'
+         'python-wcmatch')
 makedepends=('python-setuptools')
-source=("https://files.pythonhosted.org/packages/74/5b/14268269db2659c0ea737c81b224ced4a261da2e0e7680d88557dd2f58cc/$_pkgname-$pkgver.tar.gz"
+source=("https://files.pythonhosted.org/packages/ef/71/d2b99a8921da9c2b2694a9c7c3a69279b37cf649094751872fe60dc049e5/$_pkgname-$pkgver.tar.gz"
         "https://github.com/returntocorp/$_pkgname/releases/download/v$pkgver/$_pkgname-v$pkgver-ubuntu-16.04.tgz")
-sha512sums=('40735c9ed1525464b3b4822ebf920eba2976237faf034e8a14a10e0cdff11674e68d8094b5b2d0ad758943152184505fde8a554ed9f197138fbccef9304ac0b9'
-            '5166ddffa762ffe52d29f45fc4c981d3e47cd0af24760e0b4f283fff83e5897e91025c78c889ab46d99585562d77f8506cf2c141245bb9342e7b9cf24ae60292')
+sha512sums=('d9a016981eea38ccd1145604a175a337a351673c1648c0db2a205a20d82a7eeb035bf20a69d6a164a958df9edf774cc78ed455eb14f27e41f849c52c7e8203fe'
+            '799565edf0039f434cb2ea39cf25f78d2f48b487e33e1e6afd51d1b04fc96580b8b881777edd65d9577da01fcddc88821af2761622e6dfcf3f365dd0f24fb9cb')
 
 prepare() {
   cd "$_pkgname-$pkgver"

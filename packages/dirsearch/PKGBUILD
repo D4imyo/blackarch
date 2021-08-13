@@ -2,15 +2,16 @@
 # See COPYING for license details.
 
 pkgname=dirsearch
-pkgver=1859.e37e871
-pkgrel=1
+pkgver=1895.00fa6c3
+pkgrel=2
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner')
 pkgdesc='HTTP(S) directory/file brute forcer.'
 arch=('any')
 url='https://github.com/maurosoria/dirsearch'
 license=('GPL2')
 depends=('python' 'python-simplejson' 'python-beautifulsoup4' 'python-pyasn1'
-         'python-pyopenssl' 'python-urllib3')
+         'python-pyopenssl' 'python-urllib3' 'python-certifi'
+         'python-markupsafe')
 makedepends=('git')
 source=("git+https://github.com/maurosoria/$pkgname.git")
 sha512sums=('SKIP')

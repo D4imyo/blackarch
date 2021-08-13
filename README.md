@@ -2,7 +2,7 @@
 
 **BlackArch Linux** is an ArchLinux based penetration testing distribution for
 penetration testers and security researchers. The repository contains
-[2705 tools](https://www.blackarch.org/tools.html). You can install tools
+[2730 tools](https://www.blackarch.org/tools.html). You can install tools
 individually or in groups. BlackArch Linux is compatible with existing Arch
 installs. For more information, see the installation instructions.
 
@@ -32,6 +32,4 @@ To start developing for BlackArch please refer to the [Dev-Guide](./docs/HOWTO-D
 
 **Mail:** team@blackarch.org
 
-**IRC:** [irc://irc.freenode.net/blackarch](irc://irc.freenode.net/blackarch)
-
-**Discord:** https://discord.gg/DtEfRtx
+**IRC:** [irc://irc.blackarch.org:1337/blackarch](irc://irc.blackarch.org:1337/blackarch)
